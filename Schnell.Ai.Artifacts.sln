@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schnell.Ai.Artifacts.Csv", "Schnell.Ai.Artifacts.Csv\Schnell.Ai.Artifacts.Csv.csproj", "{33910070-E45E-4645-B4D0-BCE19723EBBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schnell.Ai.Artifacts.Sql", "Schnell.Ai.Artifacts.Sql\Schnell.Ai.Artifacts.Sql.csproj", "{93848D99-A2FD-46C4-A992-131271C1A72C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D7B9D5E6-06D7-4977-8AE6-3FA747E342FF}"
+	ProjectSection(SolutionItems) = preProject
+		DbCommandReader.cs = DbCommandReader.cs
+		DbCommandWriter.cs = DbCommandWriter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File", "File", "{9F566791-2F5A-4BB3-8129-12D87166F263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{57C15191-4AC2-4246-BC04-41167984CF6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schnell.Ai.Artifacts.MySql", "Schnell.Ai.Artifacts.MySql\Schnell.Ai.Artifacts.MySql.csproj", "{6E3E7F0E-8D41-43B5-8459-645286586E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33910070-E45E-4645-B4D0-BCE19723EBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33910070-E45E-4645-B4D0-BCE19723EBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33910070-E45E-4645-B4D0-BCE19723EBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33910070-E45E-4645-B4D0-BCE19723EBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93848D99-A2FD-46C4-A992-131271C1A72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93848D99-A2FD-46C4-A992-131271C1A72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93848D99-A2FD-46C4-A992-131271C1A72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93848D99-A2FD-46C4-A992-131271C1A72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3E7F0E-8D41-43B5-8459-645286586E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3E7F0E-8D41-43B5-8459-645286586E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3E7F0E-8D41-43B5-8459-645286586E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3E7F0E-8D41-43B5-8459-645286586E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33910070-E45E-4645-B4D0-BCE19723EBBD} = {9F566791-2F5A-4BB3-8129-12D87166F263}
+		{93848D99-A2FD-46C4-A992-131271C1A72C} = {57C15191-4AC2-4246-BC04-41167984CF6C}
+		{6E3E7F0E-8D41-43B5-8459-645286586E7C} = {57C15191-4AC2-4246-BC04-41167984CF6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40680A94-215E-4B6B-802C-C4D6C0C27526}
+	EndGlobalSection
+EndGlobal

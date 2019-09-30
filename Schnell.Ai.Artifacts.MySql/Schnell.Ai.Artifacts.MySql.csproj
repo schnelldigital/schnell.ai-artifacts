@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Version>0.9.1</Version>
+    <Authors>schnell.technology</Authors>
+    <Company>schnell.technology</Company>
+    <Product>schnell.AI - Artifacts</Product>
+    <Description>Import and export data from/to a MySQL/MariaDB Database</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\DbCommandReader.cs" Link="DbCommandReader.cs" />
+    <Compile Include="..\DbCommandWriter.cs" Link="DbCommandWriter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.17" />
+    <PackageReference Include="Schnell.Ai.Sdk" Version="0.9.1" />
+  </ItemGroup>
+
+</Project>

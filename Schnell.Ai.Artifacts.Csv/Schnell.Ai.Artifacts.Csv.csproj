@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Authors>schnell.technology</Authors>
+    <Version>0.9.1</Version>
+    <Product>schnell.AI</Product>
+    <Description>Import and export data from/to a CSV-file.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
+    <PackageReference Include="Schnell.Ai.Sdk" Version="0.9.1" />
+  </ItemGroup>
+
+</Project>
