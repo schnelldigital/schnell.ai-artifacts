@@ -1,6 +1,6 @@
 # schnell.AI Artifacts
 
-This repository contains default artifacts (data-set importer and exporter) for schnell.AI.
+This repository contains default artifacts (data-set importer and exporter) for schnell.AI. For more informations please read the [documentation](https://schnell.ai/docs/#/user/artifacts).
 
 ## Table of contents
 | Directory                                                | Name              | Description                                     |
